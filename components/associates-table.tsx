@@ -163,9 +163,7 @@ const getColumns = (
       <div className="flex items-center">
         <Avatar name="John Doe" src={employee.avatar} />
         <div className="ml-3 rtl:ml-0 rtl:mr-3 min-w-[150px]">
-          <Text as="h6" className="mb-0.5 !text-sm font-medium">
-            {employee.name}
-          </Text>
+          <Text className="mb-0.5 !text-sm font-medium">{employee.name}</Text>
           <Text as="p" className="text-xs text-gray-400">
             {employee.userName}
           </Text>
@@ -180,7 +178,7 @@ const getColumns = (
     width: 320,
     render: (designation: any) => (
       <div>
-        <Text as="h6" className="mb-0.5 !text-sm font-medium  min-w-[150px]">
+        <Text className="mb-0.5 !text-sm font-medium  min-w-[150px]">
           {designation.role}
         </Text>
         <Text as="p" className="text-xs text-gray-400">
